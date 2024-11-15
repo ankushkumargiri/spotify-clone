@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.audio-player {
+    text-align: center;
+}
+
+#playPauseBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#progressBar {
+    width: 200px;
+}
